@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>John Doe &mdash; Digital Growth Mentor</title>
+<meta name="description" content="Generic mentor / coach landing page template &mdash; dark themed, single page, no build step.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="logo">John<span>Doe</span></a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#mentorship">Mentorship</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#blog">Blogs</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark / light mode" aria-pressed="false">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.8 1.42-1.42zM1 13h3v-2H1v2zm10-9h2V1h-2v3zm7.66 2.05l1.79-1.8-1.41-1.41-1.79 1.8 1.41 1.41zM17.24 19.16l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 11v2h3v-2h-3zM11 20h2v3h-2v-3zM4.24 19.16l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8zM12 7a5 5 0 100 10 5 5 0 000-10z" fill="currentColor"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" fill="currentColor"/></svg>
+      </button>
+      <a href="#book-now" class="btn btn-accent btn-sm">Book Now</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== MOBILE DRAWER ===== -->
+<div class="drawer" id="drawer">
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <div class="drawer-panel">
+    <button class="drawer-close" id="drawer-close" aria-label="Close menu">&times;</button>
+    <ul class="drawer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#mentorship">Mentorship</a></li>
+      <li><a href="#book-now">Webinar</a></li>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="#blog">Blogs &amp; Articles</a></li>
+      <li><a href="#media">Media Mention</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+      <li><a href="#login">Student Login</a></li>
+    </ul>
+    <p class="drawer-heading">Find Me On</p>
+    <ul class="social-row">
+      <li><a href="#" aria-label="Facebook"><span class="icon" data-icon="facebook"></span></a></li>
+      <li><a href="#" aria-label="LinkedIn"><span class="icon" data-icon="linkedin"></span></a></li>
+      <li><a href="#" aria-label="YouTube"><span class="icon" data-icon="youtube"></span></a></li>
+      <li><a href="#" aria-label="Instagram"><span class="icon" data-icon="instagram"></span></a></li>
+    </ul>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-glow"></div>
+    <div class="container hero-inner">
+      <span class="badge">&#9733; Trusted by 50,000+ students</span>
+      <h1>Transform Your Digital Future <br> with <span class="accent">Expert Guidance</span></h1>
+      <p class="hero-sub">Learn the exact digital skills, systems and strategies that have helped thousands of everyday people build a profitable online income &mdash; step by step, in plain language.</p>
+      <div class="hero-cta">
+        <a href="#book-now" class="btn btn-accent btn-lg">Book Now</a>
+        <a href="#video" class="btn btn-ghost btn-lg">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          Watch Video
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>&#8377;2&nbsp;cr+</strong><span>Revenue Generated</span></div>
+        <div class="hero-stat"><strong>50,000+</strong><span>Happy Students</span></div>
+        <div class="hero-stat"><strong>4.9/5</strong><span>Average Rating</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats-section">
+    <div class="container stats-grid">
+      <div class="stat-card">
+        <div class="stat-icon"><span class="icon" data-icon="users"></span></div>
+        <h2>50,000+</h2>
+        <p>Students Trained</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon"><span class="icon" data-icon="trophy"></span></div>
+        <h2>1,000+</h2>
+        <p>Success Stories</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon"><span class="icon" data-icon="rupee"></span></div>
+        <h2>&#8377;2&nbsp;cr+</h2>
+        <p>Student Earnings</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VIDEO ===== -->
+  <section class="video-section" id="video">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Watch &amp; Learn</span>
+        <h2>Watch This Video To Learn Skills &amp; Earn Money</h2>
+        <p>Available in your preferred language &mdash; pick a tab below.</p>
+      </div>
+      <div class="lang-tabs" role="tablist" aria-label="Video language">
+        <button class="lang-tab active" data-lang="Hindi">Hindi</button>
+        <button class="lang-tab" data-lang="English">English</button>
+        <button class="lang-tab" data-lang="Bengali">Bengali</button>
+      </div>
+      <div class="video-frame">
+        <div class="video-placeholder">
+          <button class="play-btn" id="play-btn" aria-label="Play video">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+          <p>Now playing: <span id="lang-label">Hindi</span> version</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY TABS ===== -->
+  <section class="gallery-section" id="about">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Behind The Scenes</span>
+        <h2>A Peek Into The <span class="accent">Journey</span></h2>
+      </div>
+      <div class="gallery-tabs" role="tablist">
+        <button class="gallery-tab active" data-gallery="lifestyle">Lifestyle</button>
+        <button class="gallery-tab" data-gallery="achievements">Achievements</button>
+        <button class="gallery-tab" data-gallery="earnings">Earnings Proof</button>
+        <button class="gallery-tab" data-gallery="legal">Legal Certificates</button>
+      </div>
+
+      <div class="carousel-wrap">
+        <button class="carousel-btn prev" data-target="gallery-track" aria-label="Previous">&#10094;</button>
+        <div class="carousel-track" id="gallery-track">
+          <!-- panels injected by JS -->
+        </div>
+        <button class="carousel-btn next" data-target="gallery-track" aria-label="Next">&#10095;</button>
+      </div>
+      <a href="#" class="text-link center" id="gallery-view-link">View My Lifestyle &rarr;</a>
+    </div>
+  </section>
+
+  <!-- ===== SOCIAL ===== -->
+  <section class="social-section">
+    <div class="container">
+      <h2 class="center">Find Me On Your Favorite Platform</h2>
+      <div class="social-grid">
+        <a href="#" class="social-pill"><span class="icon" data-icon="facebook"></span> Facebook</a>
+        <a href="#" class="social-pill"><span class="icon" data-icon="instagram"></span> Instagram</a>
+        <a href="#" class="social-pill"><span class="icon" data-icon="youtube"></span> YouTube</a>
+        <a href="#" class="social-pill"><span class="icon" data-icon="linkedin"></span> LinkedIn</a>
+        <a href="#" class="social-pill"><span class="icon" data-icon="pinterest"></span> Pinterest</a>
+        <a href="#" class="social-pill"><span class="icon" data-icon="whatsapp"></span> WhatsApp Community</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE ME ===== -->
+  <section class="features-section" id="mentorship">
+    <div class="container">
+      <div class="section-head center">
+        <span class="badge"><svg width="14" height="14" viewBox="0 0 576 512" fill="currentColor"><path d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"/></svg> Why Choose Me</span>
+        <h2>Everything You Need to <span class="accent">Succeed Online</span></h2>
+        <p>Get access to comprehensive training, expert mentorship, and a supportive community to build your dream digital business.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><span class="icon" data-icon="video"></span></div>
+          <h3>Live Webinars</h3>
+          <p>Interactive sessions in Hindi, Bengali &amp; English with real-time Q&amp;A.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><span class="icon" data-icon="book"></span></div>
+          <h3>Structured Courses</h3>
+          <p>Step-by-step curriculum designed for beginners to advanced learners.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><span class="icon" data-icon="users"></span></div>
+          <h3>Community Support</h3>
+          <p>Join 50,000+ like-minded entrepreneurs in our exclusive community.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><span class="icon" data-icon="target"></span></div>
+          <h3>1:1 Mentorship</h3>
+          <p>Personal guidance from your mentor to accelerate your growth.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><span class="icon" data-icon="chart"></span></div>
+          <h3>Proven Strategies</h3>
+          <p>Battle-tested methods that have generated &#8377;10 cr+ for students.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><span class="icon" data-icon="cert"></span></div>
+          <h3>Certification</h3>
+          <p>Earn recognized certificates to showcase your expertise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonial-section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="badge">Testimonials</span>
+        <h2>Real People, Real <span class="accent">Transformations</span></h2>
+        <p>Join thousands of successful students who turned their digital dreams into reality.</p>
+      </div>
+      <div class="carousel-wrap">
+        <button class="carousel-btn prev" data-target="testimonial-track" aria-label="Previous">&#10094;</button>
+        <div class="carousel-track testimonial-track" id="testimonial-track">
+          <!-- injected by JS -->
+        </div>
+        <button class="carousel-btn next" data-target="testimonial-track" aria-label="Next">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BLOG ===== -->
+  <section class="blog-section" id="blog">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Insights</span>
+        <h2>Blogs</h2>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-thumb thumb-a"></div>
+          <div class="blog-body">
+            <span class="blog-tag">Passive Income</span>
+            <h3>Passive Income Myths vs Reality in 2026</h3>
+            <p>What actually works online right now &mdash; and what's just noise.</p>
+            <a href="#" class="text-link">Read More &rarr;</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-thumb thumb-b"></div>
+          <div class="blog-body">
+            <span class="blog-tag">Affiliate Marketing</span>
+            <h3>Affiliate Marketing in 2026: A Beginner's Guide</h3>
+            <p>How newcomers can build real, sustainable online income.</p>
+            <a href="#" class="text-link">Read More &rarr;</a>
+          </div>
+        </article>
+      </div>
+      <a href="#" class="text-link center">View Blogs &amp; Insights &rarr;</a>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq-section">
+    <div class="container narrow">
+      <div class="section-head center">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="accordion" id="faq-accordion">
+
+        <div class="accordion-item open">
+          <button class="accordion-trigger" aria-expanded="true">Who is this program for?<span class="accordion-icon">&#8963;</span></button>
+          <div class="accordion-panel"><p>This program is for beginners who want to start earning money online using digital skills, affiliate marketing and freelancing, even if they have no prior experience.</p></div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">Do I need any technical or marketing background?<span class="accordion-icon">&#8963;</span></button>
+          <div class="accordion-panel"><p>No. Everything is explained from the basics in simple language, step by step, suitable for complete beginners.</p></div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">How much time do I need to give?<span class="accordion-icon">&#8963;</span></button>
+          <div class="accordion-panel"><p>Most students see good progress with 3&ndash;4 focused hours a day.</p></div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">Do I need a laptop or computer?<span class="accordion-icon">&#8963;</span></button>
+          <div class="accordion-panel"><p>No, a smartphone with a good internet connection is enough to get started.</p></div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">Is there any age restriction?<span class="accordion-icon">&#8963;</span></button>
+          <div class="accordion-panel"><p>No. Students, homemakers, working professionals, business owners and retirees can all take part.</p></div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">Do I need a specific education qualification?<span class="accordion-icon">&#8963;</span></button>
+          <div class="accordion-panel"><p>No formal qualification is required &mdash; anyone willing to learn can start.</p></div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">In which languages is the program available?<span class="accordion-icon">&#8963;</span></button>
+          <div class="accordion-panel"><p>Content is available in Hindi, English and Bengali so you can learn comfortably.</p></div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">How soon can I start earning?<span class="accordion-icon">&#8963;</span></button>
+          <div class="accordion-panel"><p>Earnings depend on consistency and execution. Many learners start seeing results within weeks of proper implementation.</p></div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">Can I do this part-time?<span class="accordion-icon">&#8963;</span></button>
+          <div class="accordion-panel"><p>Yes. The methods taught can be applied part-time or full-time, whatever fits your schedule.</p></div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">Do I need to invest money to get started?<span class="accordion-icon">&#8963;</span></button>
+          <div class="accordion-panel"><p>You can start with very low or no investment. Any paid tools are optional and explained clearly before use.</p></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner" id="book-now">
+    <div class="container cta-inner">
+      <h2>Ready to build your digital future?</h2>
+      <p>Book a free discovery call and get a clear roadmap for your first 30 days.</p>
+      <a href="#contact" class="btn btn-accent btn-lg">Book Now</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" id="contact">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="logo">John<span>Doe</span></a>
+      <p>Helping everyday people build profitable, sustainable online income through structured mentorship.</p>
+      <ul class="social-row">
+        <li><a href="#" aria-label="Facebook"><span class="icon" data-icon="facebook"></span></a></li>
+        <li><a href="#" aria-label="LinkedIn"><span class="icon" data-icon="linkedin"></span></a></li>
+        <li><a href="#" aria-label="YouTube"><span class="icon" data-icon="youtube"></span></a></li>
+        <li><a href="#" aria-label="Instagram"><span class="icon" data-icon="instagram"></span></a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h2>Explore</h2>
+      <ul><li><a href="#blog">Blogs</a></li><li><a href="#mentorship">Mentorship</a></li><li><a href="#packages">Packages</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h2>Webinars</h2>
+      <ul><li><a href="#video">Hindi</a></li><li><a href="#video">Bengali</a></li><li><a href="#video">English</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h2>About</h2>
+      <ul><li><a href="#about">Lifestyle</a></li><li><a href="#about">Achievements</a></li><li><a href="#media">Media Mentions</a></li></ul>
+    </div>
+    <div class="footer-col">
+      <h2>Legal</h2>
+      <ul><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms &amp; Conditions</a></li></ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <h2>&copy; 2026 John Doe. All rights reserved.</h2>
+      <p class="template-note">Generic template &mdash; for learning / personal-portfolio use.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scroll-top" aria-label="Scroll to top">&uarr;</button>
+
+<script src="script.js"></script>
+</body>
+</html>
